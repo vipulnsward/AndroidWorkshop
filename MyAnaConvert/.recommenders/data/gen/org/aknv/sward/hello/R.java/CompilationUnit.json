@@ -1,0 +1,235 @@
+{
+  "imports": [
+    {
+      "name": "Ljava/lang/Object",
+      "fingerprint": "c4a1fdfa31c0444223b5d83a781106042c45e172"
+    }
+  ],
+  "kind": "SNAPSHOT",
+  "analysedOn": "2011-03-22T08:13:00.127+05:30",
+  "fingerprint": "7abeaa0591a2cb6ce3a202cdf3af8700ed4ff96d",
+  "name": "Lorg/aknv/sward/hello/R",
+  "primaryType": {
+    "name": "Lorg/aknv/sward/hello/R",
+    "superclass": "Ljava/lang/Object",
+    "interfaces": [],
+    "fields": [],
+    "methods": [
+      {
+        "name": "Lorg/aknv/sward/hello/R.\u003cinit\u003e()V",
+        "superDeclaration": "Ljava/lang/Object.\u003cinit\u003e()V",
+        "firstDeclaration": "Ljava/lang/Object.\u003cinit\u003e()V",
+        "line": 0,
+        "nestedTypes": [],
+        "modifiers": 1,
+        "objects": [
+          {
+            "type": "Ljava/lang/Object",
+            "names": [
+              "this"
+            ],
+            "kind": "PARAMETER",
+            "parameterCallSites": [],
+            "receiverCallSites": [
+              {
+                "receiver": "this",
+                "targetMethod": "Ljava/lang/Object.\u003cinit\u003e()V",
+                "sourceMethod": "Lorg/aknv/sward/hello/R.\u003cinit\u003e()V",
+                "line": 10
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "line": 0,
+    "memberTypes": [
+      {
+        "name": "Lorg/aknv/sward/hello/R$layout",
+        "superclass": "Ljava/lang/Object",
+        "interfaces": [],
+        "fields": [],
+        "methods": [
+          {
+            "name": "Lorg/aknv/sward/hello/R$layout.\u003cinit\u003e()V",
+            "superDeclaration": "Ljava/lang/Object.\u003cinit\u003e()V",
+            "firstDeclaration": "Ljava/lang/Object.\u003cinit\u003e()V",
+            "line": 0,
+            "nestedTypes": [],
+            "modifiers": 1,
+            "objects": [
+              {
+                "type": "Ljava/lang/Object",
+                "names": [
+                  "this"
+                ],
+                "kind": "PARAMETER",
+                "parameterCallSites": [],
+                "receiverCallSites": [
+                  {
+                    "receiver": "this",
+                    "targetMethod": "Ljava/lang/Object.\u003cinit\u003e()V",
+                    "sourceMethod": "Lorg/aknv/sward/hello/R$layout.\u003cinit\u003e()V",
+                    "line": 23
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "line": 0,
+        "memberTypes": [],
+        "modifiers": 49
+      },
+      {
+        "name": "Lorg/aknv/sward/hello/R$id",
+        "superclass": "Ljava/lang/Object",
+        "interfaces": [],
+        "fields": [],
+        "methods": [
+          {
+            "name": "Lorg/aknv/sward/hello/R$id.\u003cinit\u003e()V",
+            "superDeclaration": "Ljava/lang/Object.\u003cinit\u003e()V",
+            "firstDeclaration": "Ljava/lang/Object.\u003cinit\u003e()V",
+            "line": 0,
+            "nestedTypes": [],
+            "modifiers": 1,
+            "objects": [
+              {
+                "type": "Ljava/lang/Object",
+                "names": [
+                  "this"
+                ],
+                "kind": "PARAMETER",
+                "parameterCallSites": [],
+                "receiverCallSites": [
+                  {
+                    "receiver": "this",
+                    "targetMethod": "Ljava/lang/Object.\u003cinit\u003e()V",
+                    "sourceMethod": "Lorg/aknv/sward/hello/R$id.\u003cinit\u003e()V",
+                    "line": 16
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "line": 0,
+        "memberTypes": [],
+        "modifiers": 49
+      },
+      {
+        "name": "Lorg/aknv/sward/hello/R$attr",
+        "superclass": "Ljava/lang/Object",
+        "interfaces": [],
+        "fields": [],
+        "methods": [
+          {
+            "name": "Lorg/aknv/sward/hello/R$attr.\u003cinit\u003e()V",
+            "superDeclaration": "Ljava/lang/Object.\u003cinit\u003e()V",
+            "firstDeclaration": "Ljava/lang/Object.\u003cinit\u003e()V",
+            "line": 0,
+            "nestedTypes": [],
+            "modifiers": 1,
+            "objects": [
+              {
+                "type": "Ljava/lang/Object",
+                "names": [
+                  "this"
+                ],
+                "kind": "PARAMETER",
+                "parameterCallSites": [],
+                "receiverCallSites": [
+                  {
+                    "receiver": "this",
+                    "targetMethod": "Ljava/lang/Object.\u003cinit\u003e()V",
+                    "sourceMethod": "Lorg/aknv/sward/hello/R$attr.\u003cinit\u003e()V",
+                    "line": 11
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "line": 0,
+        "memberTypes": [],
+        "modifiers": 49
+      },
+      {
+        "name": "Lorg/aknv/sward/hello/R$string",
+        "superclass": "Ljava/lang/Object",
+        "interfaces": [],
+        "fields": [],
+        "methods": [
+          {
+            "name": "Lorg/aknv/sward/hello/R$string.\u003cinit\u003e()V",
+            "superDeclaration": "Ljava/lang/Object.\u003cinit\u003e()V",
+            "firstDeclaration": "Ljava/lang/Object.\u003cinit\u003e()V",
+            "line": 0,
+            "nestedTypes": [],
+            "modifiers": 1,
+            "objects": [
+              {
+                "type": "Ljava/lang/Object",
+                "names": [
+                  "this"
+                ],
+                "kind": "PARAMETER",
+                "parameterCallSites": [],
+                "receiverCallSites": [
+                  {
+                    "receiver": "this",
+                    "targetMethod": "Ljava/lang/Object.\u003cinit\u003e()V",
+                    "sourceMethod": "Lorg/aknv/sward/hello/R$string.\u003cinit\u003e()V",
+                    "line": 26
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "line": 0,
+        "memberTypes": [],
+        "modifiers": 49
+      },
+      {
+        "name": "Lorg/aknv/sward/hello/R$drawable",
+        "superclass": "Ljava/lang/Object",
+        "interfaces": [],
+        "fields": [],
+        "methods": [
+          {
+            "name": "Lorg/aknv/sward/hello/R$drawable.\u003cinit\u003e()V",
+            "superDeclaration": "Ljava/lang/Object.\u003cinit\u003e()V",
+            "firstDeclaration": "Ljava/lang/Object.\u003cinit\u003e()V",
+            "line": 0,
+            "nestedTypes": [],
+            "modifiers": 1,
+            "objects": [
+              {
+                "type": "Ljava/lang/Object",
+                "names": [
+                  "this"
+                ],
+                "kind": "PARAMETER",
+                "parameterCallSites": [],
+                "receiverCallSites": [
+                  {
+                    "receiver": "this",
+                    "targetMethod": "Ljava/lang/Object.\u003cinit\u003e()V",
+                    "sourceMethod": "Lorg/aknv/sward/hello/R$drawable.\u003cinit\u003e()V",
+                    "line": 13
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "line": 0,
+        "memberTypes": [],
+        "modifiers": 49
+      }
+    ],
+    "modifiers": 49
+  }
+}

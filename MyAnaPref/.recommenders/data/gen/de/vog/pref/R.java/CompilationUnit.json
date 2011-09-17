@@ -1,0 +1,309 @@
+{
+  "imports": [
+    {
+      "name": "Ljava/lang/Object",
+      "fingerprint": "635cbebe3e412f5b036d9d2d887a2be4ddb93b96"
+    }
+  ],
+  "kind": "SNAPSHOT",
+  "analysedOn": "2011-06-20T09:13:43.377+05:30",
+  "fingerprint": "c614e5399991097922786ee52fb9a746df10f634",
+  "name": "Lde/vog/pref/R",
+  "primaryType": {
+    "name": "Lde/vog/pref/R",
+    "superclass": "Ljava/lang/Object",
+    "interfaces": [],
+    "fields": [],
+    "methods": [
+      {
+        "name": "Lde/vog/pref/R.\u003cinit\u003e()V",
+        "superDeclaration": "Ljava/lang/Object.\u003cinit\u003e()V",
+        "firstDeclaration": "Ljava/lang/Object.\u003cinit\u003e()V",
+        "line": 0,
+        "nestedTypes": [],
+        "modifiers": 1,
+        "objects": [
+          {
+            "type": "Ljava/lang/Object",
+            "names": [
+              "this"
+            ],
+            "kind": "PARAMETER",
+            "parameterCallSites": [],
+            "receiverCallSites": [
+              {
+                "receiver": "this",
+                "targetMethod": "Ljava/lang/Object.\u003cinit\u003e()V",
+                "sourceMethod": "Lde/vog/pref/R.\u003cinit\u003e()V",
+                "line": 10
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "line": 0,
+    "memberTypes": [
+      {
+        "name": "Lde/vog/pref/R$drawable",
+        "superclass": "Ljava/lang/Object",
+        "interfaces": [],
+        "fields": [],
+        "methods": [
+          {
+            "name": "Lde/vog/pref/R$drawable.\u003cinit\u003e()V",
+            "superDeclaration": "Ljava/lang/Object.\u003cinit\u003e()V",
+            "firstDeclaration": "Ljava/lang/Object.\u003cinit\u003e()V",
+            "line": 0,
+            "nestedTypes": [],
+            "modifiers": 1,
+            "objects": [
+              {
+                "type": "Ljava/lang/Object",
+                "names": [
+                  "this"
+                ],
+                "kind": "PARAMETER",
+                "parameterCallSites": [],
+                "receiverCallSites": [
+                  {
+                    "receiver": "this",
+                    "targetMethod": "Ljava/lang/Object.\u003cinit\u003e()V",
+                    "sourceMethod": "Lde/vog/pref/R$drawable.\u003cinit\u003e()V",
+                    "line": 13
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "line": 0,
+        "memberTypes": [],
+        "modifiers": 49
+      },
+      {
+        "name": "Lde/vog/pref/R$layout",
+        "superclass": "Ljava/lang/Object",
+        "interfaces": [],
+        "fields": [],
+        "methods": [
+          {
+            "name": "Lde/vog/pref/R$layout.\u003cinit\u003e()V",
+            "superDeclaration": "Ljava/lang/Object.\u003cinit\u003e()V",
+            "firstDeclaration": "Ljava/lang/Object.\u003cinit\u003e()V",
+            "line": 0,
+            "nestedTypes": [],
+            "modifiers": 1,
+            "objects": [
+              {
+                "type": "Ljava/lang/Object",
+                "names": [
+                  "this"
+                ],
+                "kind": "PARAMETER",
+                "parameterCallSites": [],
+                "receiverCallSites": [
+                  {
+                    "receiver": "this",
+                    "targetMethod": "Ljava/lang/Object.\u003cinit\u003e()V",
+                    "sourceMethod": "Lde/vog/pref/R$layout.\u003cinit\u003e()V",
+                    "line": 21
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "line": 0,
+        "memberTypes": [],
+        "modifiers": 49
+      },
+      {
+        "name": "Lde/vog/pref/R$id",
+        "superclass": "Ljava/lang/Object",
+        "interfaces": [],
+        "fields": [],
+        "methods": [
+          {
+            "name": "Lde/vog/pref/R$id.\u003cinit\u003e()V",
+            "superDeclaration": "Ljava/lang/Object.\u003cinit\u003e()V",
+            "firstDeclaration": "Ljava/lang/Object.\u003cinit\u003e()V",
+            "line": 0,
+            "nestedTypes": [],
+            "modifiers": 1,
+            "objects": [
+              {
+                "type": "Ljava/lang/Object",
+                "names": [
+                  "this"
+                ],
+                "kind": "PARAMETER",
+                "parameterCallSites": [],
+                "receiverCallSites": [
+                  {
+                    "receiver": "this",
+                    "targetMethod": "Ljava/lang/Object.\u003cinit\u003e()V",
+                    "sourceMethod": "Lde/vog/pref/R$id.\u003cinit\u003e()V",
+                    "line": 16
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "line": 0,
+        "memberTypes": [],
+        "modifiers": 49
+      },
+      {
+        "name": "Lde/vog/pref/R$xml",
+        "superclass": "Ljava/lang/Object",
+        "interfaces": [],
+        "fields": [],
+        "methods": [
+          {
+            "name": "Lde/vog/pref/R$xml.\u003cinit\u003e()V",
+            "superDeclaration": "Ljava/lang/Object.\u003cinit\u003e()V",
+            "firstDeclaration": "Ljava/lang/Object.\u003cinit\u003e()V",
+            "line": 0,
+            "nestedTypes": [],
+            "modifiers": 1,
+            "objects": [
+              {
+                "type": "Ljava/lang/Object",
+                "names": [
+                  "this"
+                ],
+                "kind": "PARAMETER",
+                "parameterCallSites": [],
+                "receiverCallSites": [
+                  {
+                    "receiver": "this",
+                    "targetMethod": "Ljava/lang/Object.\u003cinit\u003e()V",
+                    "sourceMethod": "Lde/vog/pref/R$xml.\u003cinit\u003e()V",
+                    "line": 31
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "line": 0,
+        "memberTypes": [],
+        "modifiers": 49
+      },
+      {
+        "name": "Lde/vog/pref/R$attr",
+        "superclass": "Ljava/lang/Object",
+        "interfaces": [],
+        "fields": [],
+        "methods": [
+          {
+            "name": "Lde/vog/pref/R$attr.\u003cinit\u003e()V",
+            "superDeclaration": "Ljava/lang/Object.\u003cinit\u003e()V",
+            "firstDeclaration": "Ljava/lang/Object.\u003cinit\u003e()V",
+            "line": 0,
+            "nestedTypes": [],
+            "modifiers": 1,
+            "objects": [
+              {
+                "type": "Ljava/lang/Object",
+                "names": [
+                  "this"
+                ],
+                "kind": "PARAMETER",
+                "parameterCallSites": [],
+                "receiverCallSites": [
+                  {
+                    "receiver": "this",
+                    "targetMethod": "Ljava/lang/Object.\u003cinit\u003e()V",
+                    "sourceMethod": "Lde/vog/pref/R$attr.\u003cinit\u003e()V",
+                    "line": 11
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "line": 0,
+        "memberTypes": [],
+        "modifiers": 49
+      },
+      {
+        "name": "Lde/vog/pref/R$string",
+        "superclass": "Ljava/lang/Object",
+        "interfaces": [],
+        "fields": [],
+        "methods": [
+          {
+            "name": "Lde/vog/pref/R$string.\u003cinit\u003e()V",
+            "superDeclaration": "Ljava/lang/Object.\u003cinit\u003e()V",
+            "firstDeclaration": "Ljava/lang/Object.\u003cinit\u003e()V",
+            "line": 0,
+            "nestedTypes": [],
+            "modifiers": 1,
+            "objects": [
+              {
+                "type": "Ljava/lang/Object",
+                "names": [
+                  "this"
+                ],
+                "kind": "PARAMETER",
+                "parameterCallSites": [],
+                "receiverCallSites": [
+                  {
+                    "receiver": "this",
+                    "targetMethod": "Ljava/lang/Object.\u003cinit\u003e()V",
+                    "sourceMethod": "Lde/vog/pref/R$string.\u003cinit\u003e()V",
+                    "line": 27
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "line": 0,
+        "memberTypes": [],
+        "modifiers": 49
+      },
+      {
+        "name": "Lde/vog/pref/R$menu",
+        "superclass": "Ljava/lang/Object",
+        "interfaces": [],
+        "fields": [],
+        "methods": [
+          {
+            "name": "Lde/vog/pref/R$menu.\u003cinit\u003e()V",
+            "superDeclaration": "Ljava/lang/Object.\u003cinit\u003e()V",
+            "firstDeclaration": "Ljava/lang/Object.\u003cinit\u003e()V",
+            "line": 0,
+            "nestedTypes": [],
+            "modifiers": 1,
+            "objects": [
+              {
+                "type": "Ljava/lang/Object",
+                "names": [
+                  "this"
+                ],
+                "kind": "PARAMETER",
+                "parameterCallSites": [],
+                "receiverCallSites": [
+                  {
+                    "receiver": "this",
+                    "targetMethod": "Ljava/lang/Object.\u003cinit\u003e()V",
+                    "sourceMethod": "Lde/vog/pref/R$menu.\u003cinit\u003e()V",
+                    "line": 24
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "line": 0,
+        "memberTypes": [],
+        "modifiers": 49
+      }
+    ],
+    "modifiers": 49
+  }
+}

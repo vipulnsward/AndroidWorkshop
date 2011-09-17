@@ -1,0 +1,1197 @@
+{
+  "imports": [
+    {
+      "name": "Landroid/app/Activity",
+      "fingerprint": "c0748fbaa90a001b71fe5994e3cb0d767ed46aae"
+    },
+    {
+      "name": "Landroid/content/Intent",
+      "fingerprint": "fc3f326c05f215393678d958a5fef2329cd03053"
+    },
+    {
+      "name": "Landroid/content/SharedPreferences",
+      "fingerprint": "358871944fcc92eb94c6e5b60bd8971b5fca63ef"
+    },
+    {
+      "name": "Landroid/os/Bundle",
+      "fingerprint": "01b100ae19e11a0c21439fa39708807540727e9c"
+    },
+    {
+      "name": "Landroid/view/Menu",
+      "fingerprint": "bd09a6df9e63151ab7840a5fa46f3004d1f06341"
+    },
+    {
+      "name": "Landroid/view/MenuInflater",
+      "fingerprint": "768fd3fd460ed8a818a3c5ebd5aea0727b0c7be8"
+    },
+    {
+      "name": "Landroid/view/MenuItem",
+      "fingerprint": "2214e652bb1fd6cea535962a2fbac5284f451ac3"
+    },
+    {
+      "name": "Landroid/view/View",
+      "fingerprint": "b0c63322f699d61145298b6a2e172981a2949c1e"
+    },
+    {
+      "name": "Landroid/widget/Toast",
+      "fingerprint": "5f5152ed2f50940ab8a711c252a33e7cbc134522"
+    },
+    {
+      "name": "Lde/vog/pref/HelloPreferences$1",
+      "fingerprint": "5f257402403c39b9989f7043e4b950f6fbbbe59a"
+    },
+    {
+      "name": "Lde/vog/pref/HelloPreferences$2",
+      "fingerprint": "8d0382770e9b54aba359aaeef76c8f918fa34d7f"
+    }
+  ],
+  "kind": "SNAPSHOT",
+  "analysedOn": "2011-06-20T09:13:42.624+05:30",
+  "fingerprint": "564108c6d407806abf26e391014a1fdd0078688d",
+  "name": "Lde/vog/pref/HelloPreferences",
+  "primaryType": {
+    "name": "Lde/vog/pref/HelloPreferences",
+    "superclass": "Landroid/app/Activity",
+    "interfaces": [],
+    "fields": [
+      "Landroid/content/SharedPreferences"
+    ],
+    "methods": [
+      {
+        "name": "Lde/vog/pref/HelloPreferences.onCreate(Landroid/os/Bundle;)V",
+        "superDeclaration": "Landroid/app/Activity.onCreate(Landroid/os/Bundle;)V",
+        "firstDeclaration": "Landroid/app/Activity.onCreate(Landroid/os/Bundle;)V",
+        "line": 0,
+        "nestedTypes": [
+          {
+            "name": "Lde/vog/pref/HelloPreferences$2",
+            "superclass": "Ljava/lang/Object",
+            "interfaces": [
+              "Landroid/view/View$OnClickListener"
+            ],
+            "fields": [
+              "Lde/vog/pref/HelloPreferences"
+            ],
+            "methods": [
+              {
+                "name": "Lde/vog/pref/HelloPreferences$2.onClick(Landroid/view/View;)V",
+                "superDeclaration": "Landroid/view/View$OnClickListener.onClick(Landroid/view/View;)V",
+                "firstDeclaration": "Landroid/view/View$OnClickListener.onClick(Landroid/view/View;)V",
+                "line": 0,
+                "nestedTypes": [],
+                "modifiers": 1,
+                "objects": [
+                  {
+                    "type": "Ljava/lang/String",
+                    "names": [],
+                    "kind": "LOCAL",
+                    "parameterCallSites": [
+                      {
+                        "targetMethod": "Landroid/content/SharedPreferences.getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;",
+                        "argumentName": "unnamed",
+                        "argumentIndex": 1,
+                        "sourceMethod": "Lde/vog/pref/HelloPreferences$2.onClick(Landroid/view/View;)V",
+                        "lineNumber": 74
+                      }
+                    ],
+                    "receiverCallSites": []
+                  },
+                  {
+                    "type": "Ljava/lang/String",
+                    "names": [],
+                    "kind": "LOCAL",
+                    "parameterCallSites": [
+                      {
+                        "targetMethod": "Landroid/content/SharedPreferences$Editor.putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;",
+                        "argumentName": "unnamed",
+                        "argumentIndex": 0,
+                        "sourceMethod": "Lde/vog/pref/HelloPreferences$2.onClick(Landroid/view/View;)V",
+                        "lineNumber": 80
+                      },
+                      {
+                        "targetMethod": "Landroid/content/SharedPreferences.getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;",
+                        "argumentName": "unnamed",
+                        "argumentIndex": 0,
+                        "sourceMethod": "Lde/vog/pref/HelloPreferences$2.onClick(Landroid/view/View;)V",
+                        "lineNumber": 74
+                      }
+                    ],
+                    "receiverCallSites": []
+                  },
+                  {
+                    "type": "Ljava/lang/StringBuffer",
+                    "names": [
+                      "buffer"
+                    ],
+                    "kind": "LOCAL",
+                    "parameterCallSites": [],
+                    "receiverCallSites": [
+                      {
+                        "receiver": "buffer",
+                        "targetMethod": "Ljava/lang/StringBuffer.toString()Ljava/lang/String;",
+                        "sourceMethod": "Lde/vog/pref/HelloPreferences$2.onClick(Landroid/view/View;)V",
+                        "line": 80
+                      },
+                      {
+                        "receiver": "buffer",
+                        "targetMethod": "Ljava/lang/StringBuffer.append(C)Ljava/lang/StringBuffer;",
+                        "sourceMethod": "Lde/vog/pref/HelloPreferences$2.onClick(Landroid/view/View;)V",
+                        "line": 78
+                      },
+                      {
+                        "receiver": "buffer",
+                        "targetMethod": "Ljava/lang/StringBuffer.\u003cinit\u003e()V",
+                        "sourceMethod": "Lde/vog/pref/HelloPreferences$2.onClick(Landroid/view/View;)V",
+                        "line": 76
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Landroid/widget/Toast",
+                    "names": [],
+                    "kind": "LOCAL",
+                    "definitionSite": {
+                      "kind": "METHOD_RETURN",
+                      "lineNumber": 0,
+                      "definedByMethod": "Landroid/widget/Toast.makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;"
+                    },
+                    "parameterCallSites": [],
+                    "receiverCallSites": [
+                      {
+                        "receiver": "unnamed",
+                        "targetMethod": "Landroid/widget/Toast.show()V",
+                        "sourceMethod": "Lde/vog/pref/HelloPreferences$2.onClick(Landroid/view/View;)V",
+                        "line": 86
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Ljava/lang/String",
+                    "names": [],
+                    "kind": "LOCAL",
+                    "parameterCallSites": [
+                      {
+                        "targetMethod": "Landroid/widget/Toast.makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;",
+                        "argumentName": "unnamed",
+                        "argumentIndex": 0,
+                        "sourceMethod": "Lde/vog/pref/HelloPreferences$2.onClick(Landroid/view/View;)V",
+                        "lineNumber": 84
+                      }
+                    ],
+                    "receiverCallSites": []
+                  },
+                  {
+                    "type": "Ljava/lang/StringBuffer",
+                    "names": [],
+                    "kind": "LOCAL",
+                    "definitionSite": {
+                      "kind": "METHOD_RETURN",
+                      "lineNumber": 0,
+                      "definedByMethod": "Ljava/lang/StringBuffer.append(C)Ljava/lang/StringBuffer;"
+                    },
+                    "parameterCallSites": [],
+                    "receiverCallSites": []
+                  },
+                  {
+                    "type": "Ljava/lang/String",
+                    "names": [
+                      "username"
+                    ],
+                    "kind": "LOCAL",
+                    "definitionSite": {
+                      "kind": "METHOD_RETURN",
+                      "lineNumber": 0,
+                      "definedByMethod": "Landroid/content/SharedPreferences.getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"
+                    },
+                    "parameterCallSites": [],
+                    "receiverCallSites": [
+                      {
+                        "receiver": "username",
+                        "targetMethod": "Ljava/lang/String.charAt(I)C",
+                        "sourceMethod": "Lde/vog/pref/HelloPreferences$2.onClick(Landroid/view/View;)V",
+                        "line": 78
+                      },
+                      {
+                        "receiver": "username",
+                        "targetMethod": "Ljava/lang/String.length()I",
+                        "sourceMethod": "Lde/vog/pref/HelloPreferences$2.onClick(Landroid/view/View;)V",
+                        "line": 77
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Landroid/content/SharedPreferences$Editor",
+                    "names": [],
+                    "kind": "LOCAL",
+                    "definitionSite": {
+                      "kind": "METHOD_RETURN",
+                      "lineNumber": 0,
+                      "definedByMethod": "Landroid/content/SharedPreferences$Editor.putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;"
+                    },
+                    "parameterCallSites": [],
+                    "receiverCallSites": []
+                  },
+                  {
+                    "type": "Ljava/lang/String",
+                    "names": [],
+                    "kind": "LOCAL",
+                    "definitionSite": {
+                      "kind": "METHOD_RETURN",
+                      "lineNumber": 0,
+                      "definedByMethod": "Ljava/lang/StringBuffer.toString()Ljava/lang/String;"
+                    },
+                    "parameterCallSites": [
+                      {
+                        "targetMethod": "Landroid/content/SharedPreferences$Editor.putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;",
+                        "argumentName": "unnamed",
+                        "argumentIndex": 1,
+                        "sourceMethod": "Lde/vog/pref/HelloPreferences$2.onClick(Landroid/view/View;)V",
+                        "lineNumber": 80
+                      }
+                    ],
+                    "receiverCallSites": []
+                  },
+                  {
+                    "type": "Landroid/view/View",
+                    "names": [
+                      "v"
+                    ],
+                    "kind": "PARAMETER",
+                    "parameterCallSites": [],
+                    "receiverCallSites": []
+                  },
+                  {
+                    "type": "Landroid/content/SharedPreferences",
+                    "names": [
+                      "preferences"
+                    ],
+                    "kind": "FIELD",
+                    "definitionSite": {
+                      "kind": "FIELD",
+                      "definedByField": "Lde/vog/pref/HelloPreferences.preferences;Landroid/content/SharedPreferences",
+                      "lineNumber": 0
+                    },
+                    "parameterCallSites": [],
+                    "receiverCallSites": [
+                      {
+                        "receiver": "preferences",
+                        "targetMethod": "Landroid/content/SharedPreferences.edit()Landroid/content/SharedPreferences$Editor;",
+                        "sourceMethod": "Lde/vog/pref/HelloPreferences$2.onClick(Landroid/view/View;)V",
+                        "line": 73
+                      },
+                      {
+                        "receiver": "preferences",
+                        "targetMethod": "Landroid/content/SharedPreferences.getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;",
+                        "sourceMethod": "Lde/vog/pref/HelloPreferences$2.onClick(Landroid/view/View;)V",
+                        "line": 74
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Lde/vog/pref/HelloPreferences$2",
+                    "names": [
+                      "this"
+                    ],
+                    "kind": "PARAMETER",
+                    "parameterCallSites": [],
+                    "receiverCallSites": []
+                  },
+                  {
+                    "type": "Lde/vog/pref/HelloPreferences",
+                    "names": [
+                      "this$0"
+                    ],
+                    "kind": "FIELD",
+                    "definitionSite": {
+                      "kind": "FIELD",
+                      "definedByField": "Lde/vog/pref/HelloPreferences$2.this$0;Lde/vog/pref/HelloPreferences",
+                      "lineNumber": 0
+                    },
+                    "parameterCallSites": [
+                      {
+                        "targetMethod": "Landroid/widget/Toast.makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;",
+                        "argumentName": "this$0",
+                        "argumentIndex": -1,
+                        "sourceMethod": "Lde/vog/pref/HelloPreferences$2.onClick(Landroid/view/View;)V",
+                        "lineNumber": 84
+                      }
+                    ],
+                    "receiverCallSites": []
+                  },
+                  {
+                    "type": "Landroid/content/SharedPreferences$Editor",
+                    "names": [
+                      "edit"
+                    ],
+                    "kind": "LOCAL",
+                    "definitionSite": {
+                      "kind": "METHOD_RETURN",
+                      "lineNumber": 0,
+                      "definedByMethod": "Landroid/content/SharedPreferences.edit()Landroid/content/SharedPreferences$Editor;"
+                    },
+                    "parameterCallSites": [],
+                    "receiverCallSites": [
+                      {
+                        "receiver": "edit",
+                        "targetMethod": "Landroid/content/SharedPreferences$Editor.commit()Z",
+                        "sourceMethod": "Lde/vog/pref/HelloPreferences$2.onClick(Landroid/view/View;)V",
+                        "line": 81
+                      },
+                      {
+                        "receiver": "edit",
+                        "targetMethod": "Landroid/content/SharedPreferences$Editor.putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;",
+                        "sourceMethod": "Lde/vog/pref/HelloPreferences$2.onClick(Landroid/view/View;)V",
+                        "line": 80
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Lde/vog/pref/HelloPreferences$2.\u003cinit\u003e(Lde/vog/pref/HelloPreferences;)V",
+                "superDeclaration": "Ljava/lang/Object.\u003cinit\u003e()V",
+                "firstDeclaration": "Ljava/lang/Object.\u003cinit\u003e()V",
+                "line": 0,
+                "nestedTypes": [],
+                "modifiers": 0,
+                "objects": [
+                  {
+                    "type": "Landroid/content/SharedPreferences",
+                    "names": [
+                      "preferences"
+                    ],
+                    "kind": "FIELD",
+                    "definitionSite": {
+                      "kind": "FIELD",
+                      "definedByField": "Lde/vog/pref/HelloPreferences.preferences;Landroid/content/SharedPreferences",
+                      "lineNumber": 0
+                    },
+                    "parameterCallSites": [],
+                    "receiverCallSites": []
+                  },
+                  {
+                    "type": "Lde/vog/pref/HelloPreferences",
+                    "names": [
+                      "this$0"
+                    ],
+                    "kind": "PARAMETER",
+                    "parameterCallSites": [],
+                    "receiverCallSites": []
+                  },
+                  {
+                    "type": "Lde/vog/pref/HelloPreferences$2",
+                    "names": [
+                      "this"
+                    ],
+                    "kind": "PARAMETER",
+                    "parameterCallSites": [],
+                    "receiverCallSites": []
+                  },
+                  {
+                    "type": "Lde/vog/pref/HelloPreferences",
+                    "names": [
+                      "this$0"
+                    ],
+                    "kind": "FIELD",
+                    "definitionSite": {
+                      "kind": "FIELD",
+                      "definedByField": "Lde/vog/pref/HelloPreferences$2.this$0;Lde/vog/pref/HelloPreferences",
+                      "lineNumber": 0
+                    },
+                    "parameterCallSites": [],
+                    "receiverCallSites": []
+                  }
+                ]
+              }
+            ],
+            "line": 0,
+            "memberTypes": [],
+            "modifiers": 32
+          },
+          {
+            "name": "Lde/vog/pref/HelloPreferences$1",
+            "superclass": "Ljava/lang/Object",
+            "interfaces": [
+              "Landroid/view/View$OnClickListener"
+            ],
+            "fields": [
+              "Lde/vog/pref/HelloPreferences"
+            ],
+            "methods": [
+              {
+                "name": "Lde/vog/pref/HelloPreferences$1.\u003cinit\u003e(Lde/vog/pref/HelloPreferences;)V",
+                "superDeclaration": "Ljava/lang/Object.\u003cinit\u003e()V",
+                "firstDeclaration": "Ljava/lang/Object.\u003cinit\u003e()V",
+                "line": 0,
+                "nestedTypes": [],
+                "modifiers": 0,
+                "objects": [
+                  {
+                    "type": "Lde/vog/pref/HelloPreferences$1",
+                    "names": [
+                      "this"
+                    ],
+                    "kind": "PARAMETER",
+                    "parameterCallSites": [],
+                    "receiverCallSites": []
+                  },
+                  {
+                    "type": "Lde/vog/pref/HelloPreferences",
+                    "names": [
+                      "this$0"
+                    ],
+                    "kind": "FIELD",
+                    "definitionSite": {
+                      "kind": "FIELD",
+                      "definedByField": "Lde/vog/pref/HelloPreferences$1.this$0;Lde/vog/pref/HelloPreferences",
+                      "lineNumber": 0
+                    },
+                    "parameterCallSites": [],
+                    "receiverCallSites": []
+                  },
+                  {
+                    "type": "Lde/vog/pref/HelloPreferences",
+                    "names": [
+                      "this$0"
+                    ],
+                    "kind": "PARAMETER",
+                    "parameterCallSites": [],
+                    "receiverCallSites": []
+                  },
+                  {
+                    "type": "Landroid/content/SharedPreferences",
+                    "names": [
+                      "preferences"
+                    ],
+                    "kind": "FIELD",
+                    "definitionSite": {
+                      "kind": "FIELD",
+                      "definedByField": "Lde/vog/pref/HelloPreferences.preferences;Landroid/content/SharedPreferences",
+                      "lineNumber": 0
+                    },
+                    "parameterCallSites": [],
+                    "receiverCallSites": []
+                  }
+                ]
+              },
+              {
+                "name": "Lde/vog/pref/HelloPreferences$1.onClick(Landroid/view/View;)V",
+                "superDeclaration": "Landroid/view/View$OnClickListener.onClick(Landroid/view/View;)V",
+                "firstDeclaration": "Landroid/view/View$OnClickListener.onClick(Landroid/view/View;)V",
+                "line": 0,
+                "nestedTypes": [],
+                "modifiers": 1,
+                "objects": [
+                  {
+                    "type": "Ljava/lang/StringBuilder",
+                    "names": [],
+                    "kind": "LOCAL",
+                    "definitionSite": {
+                      "kind": "METHOD_RETURN",
+                      "lineNumber": 0,
+                      "definedByMethod": "Ljava/lang/StringBuilder.append(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+                    },
+                    "parameterCallSites": [],
+                    "receiverCallSites": [
+                      {
+                        "receiver": "unnamed",
+                        "targetMethod": "Ljava/lang/StringBuilder.append(Ljava/lang/String;)Ljava/lang/StringBuilder;",
+                        "sourceMethod": "Lde/vog/pref/HelloPreferences$1.onClick(Landroid/view/View;)V",
+                        "line": 64
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Lde/vog/pref/HelloPreferences",
+                    "names": [
+                      "this$0"
+                    ],
+                    "kind": "FIELD",
+                    "definitionSite": {
+                      "kind": "FIELD",
+                      "definedByField": "Lde/vog/pref/HelloPreferences$1.this$0;Lde/vog/pref/HelloPreferences",
+                      "lineNumber": 0
+                    },
+                    "parameterCallSites": [
+                      {
+                        "targetMethod": "Landroid/widget/Toast.makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;",
+                        "argumentName": "this$0",
+                        "argumentIndex": -1,
+                        "sourceMethod": "Lde/vog/pref/HelloPreferences$1.onClick(Landroid/view/View;)V",
+                        "lineNumber": 61
+                      }
+                    ],
+                    "receiverCallSites": []
+                  },
+                  {
+                    "type": "Ljava/lang/String",
+                    "names": [],
+                    "kind": "LOCAL",
+                    "parameterCallSites": [
+                      {
+                        "targetMethod": "Ljava/lang/StringBuilder.append(Ljava/lang/String;)Ljava/lang/StringBuilder;",
+                        "argumentName": "unnamed",
+                        "argumentIndex": 0,
+                        "sourceMethod": "Lde/vog/pref/HelloPreferences$1.onClick(Landroid/view/View;)V",
+                        "lineNumber": 63
+                      }
+                    ],
+                    "receiverCallSites": []
+                  },
+                  {
+                    "type": "Ljava/lang/StringBuilder",
+                    "names": [],
+                    "kind": "LOCAL",
+                    "definitionSite": {
+                      "kind": "METHOD_RETURN",
+                      "lineNumber": 0,
+                      "definedByMethod": "Ljava/lang/StringBuilder.append(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+                    },
+                    "parameterCallSites": [],
+                    "receiverCallSites": [
+                      {
+                        "receiver": "unnamed",
+                        "targetMethod": "Ljava/lang/StringBuilder.append(Ljava/lang/String;)Ljava/lang/StringBuilder;",
+                        "sourceMethod": "Lde/vog/pref/HelloPreferences$1.onClick(Landroid/view/View;)V",
+                        "line": 63
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Ljava/lang/String",
+                    "names": [],
+                    "kind": "LOCAL",
+                    "definitionSite": {
+                      "kind": "METHOD_RETURN",
+                      "lineNumber": 0,
+                      "definedByMethod": "Ljava/lang/StringBuilder.toString()Ljava/lang/String;"
+                    },
+                    "parameterCallSites": [
+                      {
+                        "targetMethod": "Landroid/widget/Toast.makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;",
+                        "argumentName": "unnamed",
+                        "argumentIndex": 0,
+                        "sourceMethod": "Lde/vog/pref/HelloPreferences$1.onClick(Landroid/view/View;)V",
+                        "lineNumber": 61
+                      }
+                    ],
+                    "receiverCallSites": []
+                  },
+                  {
+                    "type": "Ljava/lang/StringBuilder",
+                    "names": [],
+                    "kind": "LOCAL",
+                    "definitionSite": {
+                      "kind": "METHOD_RETURN",
+                      "lineNumber": 0,
+                      "definedByMethod": "Ljava/lang/StringBuilder.append(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+                    },
+                    "parameterCallSites": [],
+                    "receiverCallSites": [
+                      {
+                        "receiver": "unnamed",
+                        "targetMethod": "Ljava/lang/StringBuilder.toString()Ljava/lang/String;",
+                        "sourceMethod": "Lde/vog/pref/HelloPreferences$1.onClick(Landroid/view/View;)V",
+                        "line": 63
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Ljava/lang/String",
+                    "names": [],
+                    "kind": "LOCAL",
+                    "parameterCallSites": [
+                      {
+                        "targetMethod": "Landroid/content/SharedPreferences.getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;",
+                        "argumentName": "unnamed",
+                        "argumentIndex": 0,
+                        "sourceMethod": "Lde/vog/pref/HelloPreferences$1.onClick(Landroid/view/View;)V",
+                        "lineNumber": 60
+                      }
+                    ],
+                    "receiverCallSites": []
+                  },
+                  {
+                    "type": "Lde/vog/pref/HelloPreferences$1",
+                    "names": [
+                      "this"
+                    ],
+                    "kind": "PARAMETER",
+                    "parameterCallSites": [],
+                    "receiverCallSites": []
+                  },
+                  {
+                    "type": "Ljava/lang/String",
+                    "names": [
+                      "username"
+                    ],
+                    "kind": "LOCAL",
+                    "definitionSite": {
+                      "kind": "METHOD_RETURN",
+                      "lineNumber": 0,
+                      "definedByMethod": "Landroid/content/SharedPreferences.getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"
+                    },
+                    "parameterCallSites": [
+                      {
+                        "targetMethod": "Ljava/lang/StringBuilder.append(Ljava/lang/String;)Ljava/lang/StringBuilder;",
+                        "argumentName": "username",
+                        "argumentIndex": 0,
+                        "sourceMethod": "Lde/vog/pref/HelloPreferences$1.onClick(Landroid/view/View;)V",
+                        "lineNumber": 63
+                      }
+                    ],
+                    "receiverCallSites": []
+                  },
+                  {
+                    "type": "Ljava/lang/String",
+                    "names": [
+                      "password"
+                    ],
+                    "kind": "LOCAL",
+                    "definitionSite": {
+                      "kind": "METHOD_RETURN",
+                      "lineNumber": 0,
+                      "definedByMethod": "Landroid/content/SharedPreferences.getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"
+                    },
+                    "parameterCallSites": [
+                      {
+                        "targetMethod": "Ljava/lang/StringBuilder.append(Ljava/lang/String;)Ljava/lang/StringBuilder;",
+                        "argumentName": "password",
+                        "argumentIndex": 0,
+                        "sourceMethod": "Lde/vog/pref/HelloPreferences$1.onClick(Landroid/view/View;)V",
+                        "lineNumber": 64
+                      }
+                    ],
+                    "receiverCallSites": []
+                  },
+                  {
+                    "type": "Landroid/view/View",
+                    "names": [
+                      "v"
+                    ],
+                    "kind": "PARAMETER",
+                    "parameterCallSites": [],
+                    "receiverCallSites": []
+                  },
+                  {
+                    "type": "Ljava/lang/String",
+                    "names": [],
+                    "kind": "LOCAL",
+                    "parameterCallSites": [
+                      {
+                        "targetMethod": "Landroid/content/SharedPreferences.getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;",
+                        "argumentName": "unnamed",
+                        "argumentIndex": 0,
+                        "sourceMethod": "Lde/vog/pref/HelloPreferences$1.onClick(Landroid/view/View;)V",
+                        "lineNumber": 59
+                      }
+                    ],
+                    "receiverCallSites": []
+                  },
+                  {
+                    "type": "Landroid/content/SharedPreferences",
+                    "names": [
+                      "preferences"
+                    ],
+                    "kind": "FIELD",
+                    "definitionSite": {
+                      "kind": "FIELD",
+                      "definedByField": "Lde/vog/pref/HelloPreferences.preferences;Landroid/content/SharedPreferences",
+                      "lineNumber": 0
+                    },
+                    "parameterCallSites": [],
+                    "receiverCallSites": [
+                      {
+                        "receiver": "preferences",
+                        "targetMethod": "Landroid/content/SharedPreferences.getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;",
+                        "sourceMethod": "Lde/vog/pref/HelloPreferences$1.onClick(Landroid/view/View;)V",
+                        "line": 60
+                      },
+                      {
+                        "receiver": "preferences",
+                        "targetMethod": "Landroid/content/SharedPreferences.getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;",
+                        "sourceMethod": "Lde/vog/pref/HelloPreferences$1.onClick(Landroid/view/View;)V",
+                        "line": 59
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Ljava/lang/StringBuilder",
+                    "names": [],
+                    "kind": "LOCAL",
+                    "parameterCallSites": [],
+                    "receiverCallSites": [
+                      {
+                        "receiver": "unnamed",
+                        "targetMethod": "Ljava/lang/StringBuilder.\u003cinit\u003e(Ljava/lang/String;)V",
+                        "sourceMethod": "Lde/vog/pref/HelloPreferences$1.onClick(Landroid/view/View;)V",
+                        "line": 63
+                      },
+                      {
+                        "receiver": "unnamed",
+                        "targetMethod": "Ljava/lang/StringBuilder.append(Ljava/lang/String;)Ljava/lang/StringBuilder;",
+                        "sourceMethod": "Lde/vog/pref/HelloPreferences$1.onClick(Landroid/view/View;)V",
+                        "line": 63
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Ljava/lang/String",
+                    "names": [],
+                    "kind": "LOCAL",
+                    "parameterCallSites": [
+                      {
+                        "targetMethod": "Landroid/content/SharedPreferences.getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;",
+                        "argumentName": "unnamed",
+                        "argumentIndex": 1,
+                        "sourceMethod": "Lde/vog/pref/HelloPreferences$1.onClick(Landroid/view/View;)V",
+                        "lineNumber": 60
+                      },
+                      {
+                        "targetMethod": "Landroid/content/SharedPreferences.getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;",
+                        "argumentName": "unnamed",
+                        "argumentIndex": 1,
+                        "sourceMethod": "Lde/vog/pref/HelloPreferences$1.onClick(Landroid/view/View;)V",
+                        "lineNumber": 59
+                      }
+                    ],
+                    "receiverCallSites": []
+                  },
+                  {
+                    "type": "Landroid/widget/Toast",
+                    "names": [],
+                    "kind": "LOCAL",
+                    "definitionSite": {
+                      "kind": "METHOD_RETURN",
+                      "lineNumber": 0,
+                      "definedByMethod": "Landroid/widget/Toast.makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;"
+                    },
+                    "parameterCallSites": [],
+                    "receiverCallSites": [
+                      {
+                        "receiver": "unnamed",
+                        "targetMethod": "Landroid/widget/Toast.show()V",
+                        "sourceMethod": "Lde/vog/pref/HelloPreferences$1.onClick(Landroid/view/View;)V",
+                        "line": 64
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "line": 0,
+            "memberTypes": [],
+            "modifiers": 32
+          }
+        ],
+        "modifiers": 1,
+        "objects": [
+          {
+            "type": "Lde/vog/pref/HelloPreferences$1",
+            "names": [],
+            "kind": "LOCAL",
+            "parameterCallSites": [
+              {
+                "targetMethod": "Landroid/view/View.setOnClickListener(Landroid/view/View$OnClickListener;)V",
+                "argumentName": "unnamed",
+                "argumentIndex": 0,
+                "sourceMethod": "Lde/vog/pref/HelloPreferences.onCreate(Landroid/os/Bundle;)V",
+                "lineNumber": 57
+              }
+            ],
+            "receiverCallSites": [
+              {
+                "receiver": "unnamed",
+                "targetMethod": "Lde/vog/pref/HelloPreferences$1.\u003cinit\u003e(Lde/vog/pref/HelloPreferences;)V",
+                "sourceMethod": "Lde/vog/pref/HelloPreferences.onCreate(Landroid/os/Bundle;)V",
+                "line": 57
+              }
+            ]
+          },
+          {
+            "type": "Landroid/content/SharedPreferences",
+            "names": [
+              "preferences"
+            ],
+            "kind": "LOCAL",
+            "definitionSite": {
+              "kind": "METHOD_RETURN",
+              "lineNumber": 0,
+              "definedByMethod": "Landroid/preference/PreferenceManager.getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;"
+            },
+            "parameterCallSites": [],
+            "receiverCallSites": []
+          },
+          {
+            "type": "Lde/vog/pref/HelloPreferences$2",
+            "names": [],
+            "kind": "LOCAL",
+            "parameterCallSites": [
+              {
+                "targetMethod": "Landroid/view/View.setOnClickListener(Landroid/view/View$OnClickListener;)V",
+                "argumentName": "unnamed",
+                "argumentIndex": 0,
+                "sourceMethod": "Lde/vog/pref/HelloPreferences.onCreate(Landroid/os/Bundle;)V",
+                "lineNumber": 71
+              }
+            ],
+            "receiverCallSites": [
+              {
+                "receiver": "unnamed",
+                "targetMethod": "Lde/vog/pref/HelloPreferences$2.\u003cinit\u003e(Lde/vog/pref/HelloPreferences;)V",
+                "sourceMethod": "Lde/vog/pref/HelloPreferences.onCreate(Landroid/os/Bundle;)V",
+                "line": 71
+              }
+            ]
+          },
+          {
+            "type": "Landroid/view/View",
+            "names": [],
+            "kind": "LOCAL",
+            "definitionSite": {
+              "kind": "METHOD_RETURN",
+              "lineNumber": 0,
+              "definedByMethod": "Landroid/app/Activity.findViewById(I)Landroid/view/View;"
+            },
+            "parameterCallSites": [],
+            "receiverCallSites": []
+          },
+          {
+            "type": "Landroid/os/Bundle",
+            "names": [
+              "savedInstanceState"
+            ],
+            "kind": "PARAMETER",
+            "parameterCallSites": [
+              {
+                "targetMethod": "Landroid/app/Activity.onCreate(Landroid/os/Bundle;)V",
+                "argumentName": "savedInstanceState",
+                "argumentIndex": 0,
+                "sourceMethod": "Lde/vog/pref/HelloPreferences.onCreate(Landroid/os/Bundle;)V",
+                "lineNumber": 51
+              }
+            ],
+            "receiverCallSites": []
+          },
+          {
+            "type": "Landroid/app/Activity",
+            "names": [
+              "this"
+            ],
+            "kind": "PARAMETER",
+            "parameterCallSites": [
+              {
+                "targetMethod": "Lde/vog/pref/HelloPreferences$1.\u003cinit\u003e(Lde/vog/pref/HelloPreferences;)V",
+                "argumentName": "this",
+                "argumentIndex": 0,
+                "sourceMethod": "Lde/vog/pref/HelloPreferences.onCreate(Landroid/os/Bundle;)V",
+                "lineNumber": 57
+              },
+              {
+                "targetMethod": "Lde/vog/pref/HelloPreferences$2.\u003cinit\u003e(Lde/vog/pref/HelloPreferences;)V",
+                "argumentName": "this",
+                "argumentIndex": 0,
+                "sourceMethod": "Lde/vog/pref/HelloPreferences.onCreate(Landroid/os/Bundle;)V",
+                "lineNumber": 71
+              },
+              {
+                "targetMethod": "Landroid/preference/PreferenceManager.getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;",
+                "argumentName": "this",
+                "argumentIndex": -1,
+                "sourceMethod": "Lde/vog/pref/HelloPreferences.onCreate(Landroid/os/Bundle;)V",
+                "lineNumber": 55
+              }
+            ],
+            "receiverCallSites": [
+              {
+                "receiver": "this",
+                "targetMethod": "Landroid/app/Activity.findViewById(I)Landroid/view/View;",
+                "sourceMethod": "Lde/vog/pref/HelloPreferences.onCreate(Landroid/os/Bundle;)V",
+                "line": 53
+              },
+              {
+                "receiver": "this",
+                "targetMethod": "Landroid/app/Activity.setContentView(I)V",
+                "sourceMethod": "Lde/vog/pref/HelloPreferences.onCreate(Landroid/os/Bundle;)V",
+                "line": 52
+              },
+              {
+                "receiver": "this",
+                "targetMethod": "Landroid/app/Activity.findViewById(I)Landroid/view/View;",
+                "sourceMethod": "Lde/vog/pref/HelloPreferences.onCreate(Landroid/os/Bundle;)V",
+                "line": 70
+              },
+              {
+                "receiver": "this",
+                "targetMethod": "Landroid/app/Activity.onCreate(Landroid/os/Bundle;)V",
+                "sourceMethod": "Lde/vog/pref/HelloPreferences.onCreate(Landroid/os/Bundle;)V",
+                "line": 51
+              }
+            ]
+          },
+          {
+            "type": "Landroid/content/SharedPreferences",
+            "names": [
+              "preferences"
+            ],
+            "kind": "FIELD",
+            "definitionSite": {
+              "kind": "FIELD",
+              "definedByField": "Lde/vog/pref/HelloPreferences.preferences;Landroid/content/SharedPreferences",
+              "lineNumber": 0
+            },
+            "parameterCallSites": [],
+            "receiverCallSites": []
+          },
+          {
+            "type": "Landroid/view/View",
+            "names": [],
+            "kind": "LOCAL",
+            "definitionSite": {
+              "kind": "METHOD_RETURN",
+              "lineNumber": 0,
+              "definedByMethod": "Landroid/app/Activity.findViewById(I)Landroid/view/View;"
+            },
+            "parameterCallSites": [],
+            "receiverCallSites": []
+          }
+        ]
+      },
+      {
+        "name": "Lde/vog/pref/HelloPreferences.onOptionsItemSelected(Landroid/view/MenuItem;)Z",
+        "superDeclaration": "Landroid/app/Activity.onOptionsItemSelected(Landroid/view/MenuItem;)Z",
+        "firstDeclaration": "Landroid/app/Activity.onOptionsItemSelected(Landroid/view/MenuItem;)Z",
+        "line": 0,
+        "nestedTypes": [],
+        "modifiers": 1,
+        "objects": [
+          {
+            "type": "Landroid/content/SharedPreferences",
+            "names": [
+              "preferences"
+            ],
+            "kind": "FIELD",
+            "definitionSite": {
+              "kind": "FIELD",
+              "definedByField": "Lde/vog/pref/HelloPreferences.preferences;Landroid/content/SharedPreferences",
+              "lineNumber": 0
+            },
+            "parameterCallSites": [],
+            "receiverCallSites": []
+          },
+          {
+            "type": "Landroid/widget/Toast",
+            "names": [],
+            "kind": "LOCAL",
+            "definitionSite": {
+              "kind": "METHOD_RETURN",
+              "lineNumber": 0,
+              "definedByMethod": "Landroid/widget/Toast.makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;"
+            },
+            "parameterCallSites": [],
+            "receiverCallSites": [
+              {
+                "receiver": "unnamed",
+                "targetMethod": "Landroid/widget/Toast.show()V",
+                "sourceMethod": "Lde/vog/pref/HelloPreferences.onOptionsItemSelected(Landroid/view/MenuItem;)Z",
+                "line": 40
+              }
+            ]
+          },
+          {
+            "type": "Landroid/app/Activity",
+            "names": [
+              "this"
+            ],
+            "kind": "PARAMETER",
+            "parameterCallSites": [
+              {
+                "targetMethod": "Landroid/content/Intent.\u003cinit\u003e(Landroid/content/Context;Ljava/lang/Class;)V",
+                "argumentName": "this",
+                "argumentIndex": 0,
+                "sourceMethod": "Lde/vog/pref/HelloPreferences.onOptionsItemSelected(Landroid/view/MenuItem;)Z",
+                "lineNumber": 35
+              },
+              {
+                "targetMethod": "Landroid/widget/Toast.makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;",
+                "argumentName": "this",
+                "argumentIndex": -1,
+                "sourceMethod": "Lde/vog/pref/HelloPreferences.onOptionsItemSelected(Landroid/view/MenuItem;)Z",
+                "lineNumber": 38
+              }
+            ],
+            "receiverCallSites": [
+              {
+                "receiver": "this",
+                "targetMethod": "Landroid/app/Activity.startActivity(Landroid/content/Intent;)V",
+                "sourceMethod": "Lde/vog/pref/HelloPreferences.onOptionsItemSelected(Landroid/view/MenuItem;)Z",
+                "line": 36
+              }
+            ]
+          },
+          {
+            "type": "Landroid/view/MenuItem",
+            "names": [
+              "item"
+            ],
+            "kind": "PARAMETER",
+            "parameterCallSites": [],
+            "receiverCallSites": [
+              {
+                "receiver": "item",
+                "targetMethod": "Landroid/view/MenuItem.getItemId()I",
+                "sourceMethod": "Lde/vog/pref/HelloPreferences.onOptionsItemSelected(Landroid/view/MenuItem;)Z",
+                "line": 31
+              }
+            ]
+          },
+          {
+            "type": "Landroid/content/Intent",
+            "names": [
+              "i"
+            ],
+            "kind": "LOCAL",
+            "parameterCallSites": [
+              {
+                "targetMethod": "Landroid/app/Activity.startActivity(Landroid/content/Intent;)V",
+                "argumentName": "i",
+                "argumentIndex": 0,
+                "sourceMethod": "Lde/vog/pref/HelloPreferences.onOptionsItemSelected(Landroid/view/MenuItem;)Z",
+                "lineNumber": 36
+              }
+            ],
+            "receiverCallSites": [
+              {
+                "receiver": "i",
+                "targetMethod": "Landroid/content/Intent.\u003cinit\u003e(Landroid/content/Context;Ljava/lang/Class;)V",
+                "sourceMethod": "Lde/vog/pref/HelloPreferences.onOptionsItemSelected(Landroid/view/MenuItem;)Z",
+                "line": 35
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lde/vog/pref/HelloPreferences.\u003cinit\u003e()V",
+        "superDeclaration": "Landroid/app/Activity.\u003cinit\u003e()V",
+        "firstDeclaration": "Landroid/app/Activity.\u003cinit\u003e()V",
+        "line": 0,
+        "nestedTypes": [],
+        "modifiers": 1,
+        "objects": [
+          {
+            "type": "Landroid/app/Activity",
+            "names": [
+              "this"
+            ],
+            "kind": "PARAMETER",
+            "parameterCallSites": [],
+            "receiverCallSites": [
+              {
+                "receiver": "this",
+                "targetMethod": "Landroid/app/Activity.\u003cinit\u003e()V",
+                "sourceMethod": "Lde/vog/pref/HelloPreferences.\u003cinit\u003e()V",
+                "line": 17
+              }
+            ]
+          },
+          {
+            "type": "Landroid/content/SharedPreferences",
+            "names": [
+              "preferences"
+            ],
+            "kind": "FIELD",
+            "definitionSite": {
+              "kind": "FIELD",
+              "definedByField": "Lde/vog/pref/HelloPreferences.preferences;Landroid/content/SharedPreferences",
+              "lineNumber": 0
+            },
+            "parameterCallSites": [],
+            "receiverCallSites": []
+          }
+        ]
+      },
+      {
+        "name": "Lde/vog/pref/HelloPreferences.onCreateOptionsMenu(Landroid/view/Menu;)Z",
+        "superDeclaration": "Landroid/app/Activity.onCreateOptionsMenu(Landroid/view/Menu;)Z",
+        "firstDeclaration": "Landroid/app/Activity.onCreateOptionsMenu(Landroid/view/Menu;)Z",
+        "line": 0,
+        "nestedTypes": [],
+        "modifiers": 1,
+        "objects": [
+          {
+            "type": "Landroid/content/SharedPreferences",
+            "names": [
+              "preferences"
+            ],
+            "kind": "FIELD",
+            "definitionSite": {
+              "kind": "FIELD",
+              "definedByField": "Lde/vog/pref/HelloPreferences.preferences;Landroid/content/SharedPreferences",
+              "lineNumber": 0
+            },
+            "parameterCallSites": [],
+            "receiverCallSites": []
+          },
+          {
+            "type": "Landroid/view/Menu",
+            "names": [
+              "menu"
+            ],
+            "kind": "PARAMETER",
+            "parameterCallSites": [
+              {
+                "targetMethod": "Landroid/view/MenuInflater.inflate(ILandroid/view/Menu;)V",
+                "argumentName": "menu",
+                "argumentIndex": 1,
+                "sourceMethod": "Lde/vog/pref/HelloPreferences.onCreateOptionsMenu(Landroid/view/Menu;)Z",
+                "lineNumber": 24
+              }
+            ],
+            "receiverCallSites": []
+          },
+          {
+            "type": "Landroid/view/MenuInflater",
+            "names": [
+              "inflater"
+            ],
+            "kind": "LOCAL",
+            "definitionSite": {
+              "kind": "METHOD_RETURN",
+              "lineNumber": 0,
+              "definedByMethod": "Landroid/app/Activity.getMenuInflater()Landroid/view/MenuInflater;"
+            },
+            "parameterCallSites": [],
+            "receiverCallSites": [
+              {
+                "receiver": "inflater",
+                "targetMethod": "Landroid/view/MenuInflater.inflate(ILandroid/view/Menu;)V",
+                "sourceMethod": "Lde/vog/pref/HelloPreferences.onCreateOptionsMenu(Landroid/view/Menu;)Z",
+                "line": 24
+              }
+            ]
+          },
+          {
+            "type": "Landroid/app/Activity",
+            "names": [
+              "this"
+            ],
+            "kind": "PARAMETER",
+            "parameterCallSites": [],
+            "receiverCallSites": [
+              {
+                "receiver": "this",
+                "targetMethod": "Landroid/app/Activity.getMenuInflater()Landroid/view/MenuInflater;",
+                "sourceMethod": "Lde/vog/pref/HelloPreferences.onCreateOptionsMenu(Landroid/view/Menu;)Z",
+                "line": 23
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "line": 0,
+    "memberTypes": [],
+    "modifiers": 33
+  }
+}

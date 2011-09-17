@@ -1,0 +1,102 @@
+{
+  "imports": [
+    {
+      "name": "Landroid/os/Bundle",
+      "fingerprint": "01b100ae19e11a0c21439fa39708807540727e9c"
+    },
+    {
+      "name": "Landroid/preference/PreferenceActivity",
+      "fingerprint": "d92ac0b087d6e820387b5f63b0334e8f59f97648"
+    }
+  ],
+  "kind": "SNAPSHOT",
+  "analysedOn": "2011-06-20T09:13:29.735+05:30",
+  "fingerprint": "1daf77f44b2fda3ccf6e405fe4b623033fa82798",
+  "name": "Lde/vog/pref/Preferences",
+  "primaryType": {
+    "name": "Lde/vog/pref/Preferences",
+    "superclass": "Landroid/preference/PreferenceActivity",
+    "interfaces": [],
+    "fields": [],
+    "methods": [
+      {
+        "name": "Lde/vog/pref/Preferences.onCreate(Landroid/os/Bundle;)V",
+        "superDeclaration": "Landroid/preference/PreferenceActivity.onCreate(Landroid/os/Bundle;)V",
+        "firstDeclaration": "Landroid/app/Activity.onCreate(Landroid/os/Bundle;)V",
+        "line": 0,
+        "nestedTypes": [],
+        "modifiers": 1,
+        "objects": [
+          {
+            "type": "Landroid/preference/PreferenceActivity",
+            "names": [
+              "this"
+            ],
+            "kind": "PARAMETER",
+            "parameterCallSites": [],
+            "receiverCallSites": [
+              {
+                "receiver": "this",
+                "targetMethod": "Landroid/preference/PreferenceActivity.onCreate(Landroid/os/Bundle;)V",
+                "sourceMethod": "Lde/vog/pref/Preferences.onCreate(Landroid/os/Bundle;)V",
+                "line": 11
+              },
+              {
+                "receiver": "this",
+                "targetMethod": "Landroid/preference/PreferenceActivity.addPreferencesFromResource(I)V",
+                "sourceMethod": "Lde/vog/pref/Preferences.onCreate(Landroid/os/Bundle;)V",
+                "line": 12
+              }
+            ]
+          },
+          {
+            "type": "Landroid/os/Bundle",
+            "names": [
+              "savedInstanceState"
+            ],
+            "kind": "PARAMETER",
+            "parameterCallSites": [
+              {
+                "targetMethod": "Landroid/preference/PreferenceActivity.onCreate(Landroid/os/Bundle;)V",
+                "argumentName": "savedInstanceState",
+                "argumentIndex": 0,
+                "sourceMethod": "Lde/vog/pref/Preferences.onCreate(Landroid/os/Bundle;)V",
+                "lineNumber": 11
+              }
+            ],
+            "receiverCallSites": []
+          }
+        ]
+      },
+      {
+        "name": "Lde/vog/pref/Preferences.\u003cinit\u003e()V",
+        "superDeclaration": "Landroid/preference/PreferenceActivity.\u003cinit\u003e()V",
+        "firstDeclaration": "Landroid/preference/PreferenceActivity.\u003cinit\u003e()V",
+        "line": 0,
+        "nestedTypes": [],
+        "modifiers": 1,
+        "objects": [
+          {
+            "type": "Landroid/preference/PreferenceActivity",
+            "names": [
+              "this"
+            ],
+            "kind": "PARAMETER",
+            "parameterCallSites": [],
+            "receiverCallSites": [
+              {
+                "receiver": "this",
+                "targetMethod": "Landroid/preference/PreferenceActivity.\u003cinit\u003e()V",
+                "sourceMethod": "Lde/vog/pref/Preferences.\u003cinit\u003e()V",
+                "line": 6
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "line": 0,
+    "memberTypes": [],
+    "modifiers": 33
+  }
+}
