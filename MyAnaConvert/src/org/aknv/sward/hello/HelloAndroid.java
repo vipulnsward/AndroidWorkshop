@@ -56,7 +56,7 @@ public class HelloAndroid extends Activity {
 				return;
 			}
 			
-			// Switch to the other button
+			// Switch to the other button after one conversion
 			if (fahrenheitButton.isChecked()) {
 				fahrenheitButton.setChecked(false);
 				celsiusButton.setChecked(true);
